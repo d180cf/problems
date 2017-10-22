@@ -1,4 +1,5 @@
 {
+  "name": "problems",
   "devDependencies": {
     "glob": "5.0.15"
   }

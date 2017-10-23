@@ -1,5 +1,10 @@
 {
+  "main": "sgf.js",
+  "types": "sgf.d.ts",
   "devDependencies": {
     "glob": "5.0.15"
+  },
+  "scripts": {
+    "manifest": "node -e \"console.log(JSON.stringify(require('./sgf').getManifest(),null,4))\" > manifest.json"
   }
 }

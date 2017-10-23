@@ -4,7 +4,7 @@
   "name": "sgf-problems",
   "version": "2.0.0",
   "description": "Annotated SGF files with tsumego problems",
-  "devDependencies": {
+  "dependencies": {
     "glob": "5.0.15"
   },
   "scripts": {

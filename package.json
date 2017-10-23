@@ -1,6 +1,9 @@
 {
   "main": "sgf.js",
   "types": "sgf.d.ts",
+  "name": "problems",
+  "version": "1.0.0",
+  "description": "Annotated SGF files with tsumego problems",
   "devDependencies": {
     "glob": "5.0.15"
   },

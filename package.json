@@ -2,12 +2,12 @@
   "main": "sgf.js",
   "types": "sgf.d.ts",
   "name": "problems",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Annotated SGF files with tsumego problems",
   "devDependencies": {
     "glob": "5.0.15"
   },
   "scripts": {
-    "manifest": "node -e \"console.log(JSON.stringify(require('./sgf').getManifest(),null,4))\" > manifest.json"
+    "manifest": "node -p \"JSON.stringify(require('./sgf'),null,4)\" > manifest.json"
   }
 }

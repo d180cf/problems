@@ -1,7 +1,12 @@
-export interface Manifest    {
-    time: Date;
-    dirs: any[];
-};
+export interface Problem {
+    path: string; // relative paths, e.g. cc1/995.sgf
+    toString(): string; // returns SGF, e.g. "(;SZ[9]AB[aa]...)"
+}
 
-/** Reads all SGF files and returns a JSON with paths to them. */
-export function getManifest(): Manifest;
+export interface Directory {
+    description: string;
+    problems: Problem[];
+}
+
+export const dirs: Directory[];
+export function toJSON(): string; // JSON.stringify works

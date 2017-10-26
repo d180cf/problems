@@ -2,7 +2,7 @@
   "main": "sgf.js",
   "types": "sgf.d.ts",
   "name": "sgf-problems",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Annotated SGF files with tsumego problems",
   "dependencies": {
     "glob": "5.0.15"
